@@ -10,13 +10,13 @@ pub(crate) fn references_main() {
     println!("{s1}");
 }
 
-fn write_string_and_length_owning(s: String) {
-    let (s1, len) = calculate_length(s);
+fn _write_string_and_length_owning(s: String) {
+    let (s1, len) = _calculate_length(s);
 
     println!("{s1}: length is {len}");
 }
 
-fn calculate_length(s: String) -> (String, usize) {
+fn _calculate_length(s: String) -> (String, usize) {
     let len = s.len();
 
     (s, len)
