@@ -1,5 +1,7 @@
 mod function_giving_ownership;
 mod references;
+mod linked_list_safe;
+mod mini_linked_list;
 
 fn _using_string() {
     let mut hw = String::from("Hello World");
